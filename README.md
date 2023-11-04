@@ -1,16 +1,64 @@
-### Hi there 👋
+# Muhammad Rehan Aslam
 
-<!--
-**ranareehanaslam/ranareehanaslam** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## Machine Learning Engineer | CTO at Metex Labz
 
-Here are some ideas to get you started:
+👋 Welcome to my GitHub profile! I'm Muhammad Rehan Aslam, a seasoned Machine Learning Engineer and CTO with a passion for AI and ML Ops. With over 8 years of experience in IT, I am committed to advancing the field of machine learning and artificial intelligence through innovative projects and continuous learning.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 🌟 About Me
+- 🔭 Currently spearheading cutting-edge projects at [MetexLabz](https://github.com/ranareehanaslam).
+- 🌱 Continuously enhancing my expertise in machine learning and related technologies.
+- 📫 Reach me at: ranareehanaslam on major social platforms.
+
+### 📬 Contact Information
+- **Location:** Islamabad, Pakistan
+- **LinkedIn:** [ranareehanaslam](https://www.linkedin.com/in/ranareehanaslam)
+
+### 💼 Professional Experience
+- **Metex Labz** - Machine Learning & MLOps Engineer (May 2023 - Present)
+  - Developing and deploying machine learning algorithms.
+  - Specializing in MLOps for robust deployment pipelines and model monitoring.
+- **Fiverr** - Linux System Administrator & Website Developer (July 2019 - Present)
+  - Managed servers for high uptime and reliability.
+  - Designed responsive and user-friendly websites.
+- **Terminus Technologies Limited** - Software Engineer (December 2019 - May 2023)
+  - Developed responsive websites and custom CMS solutions.
+- **Einnovention Software Solutions** - Web Developer (May 2016 - December 2019)
+  - Launched web applications with a focus on responsive design and client satisfaction.
+
+### 🏆 Honors & Awards
+- Fiverr Bug Bounty
+- VestaCp Bug Bounty
+
+### 🎓 Education
+- **Pir Mehr Ali Shah Arid Agriculture University - PMAS AAUR**
+  - Bachelor's degree, Computer Science (March 2019 - April 2023)
+- **Template Monster**
+  - Certified Wordpress Developer (November 2018)
+
+### 🛠 Skills & Expertise
+- Machine Learning
+- MLOps
+- Server Management (WHM/cPanel, LINUX, UNIX)
+- Web Development (WordPress, PHP, JavaScript, MySQL)
+- API Integration
+- Software Engineering
+- Computer Vision
+- Image Processing
+
+### 🌐 Connect with Me
+[<img align="left" alt="LinkedIn" width="22px" src="https://cdn-icons-png.flaticon.com/512/174/174857.png" />][linkedin]
+[<img align="left" alt="Instagram" width="22px" src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" />][instagram]
+[<img align="left" alt="Twitter" width="22px" src="https://cdn-icons-png.flaticon.com/512/733/733579.png" />][twitter]
+[<img align="left" alt="Facebook" width="22px" src="https://cdn-icons-png.flaticon.com/512/124/124010.png" />][facebook]
+[<img align="left" alt="YouTube" width="22px" src="https://cdn-icons-png.flaticon.com/512/174/174883.png" />][youtube]
+[<img align="left" alt="TikTok" width="22px" src="https://cdn-icons-png.flaticon.com/512/3669/3669950.png" />][tiktok]
+
+<br />
+
+<!-- Actual links to your social media accounts -->
+[instagram]: https://instagram.com/ranareehanaslam
+[linkedin]: https://linkedin.com/in/ranareehanaslam
+[facebook]: https://facebook.com/ranareehanaslam
+[twitter]: https://twitter.com/ranareehanaslam
+[youtube]: https://www.youtube.com/c/ranareehanaslam
+[tiktok]: https://tiktok.com/@ranareehanaslam
