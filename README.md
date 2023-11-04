@@ -5,7 +5,7 @@
 👋 Welcome to my GitHub profile! I'm Muhammad Rehan Aslam, a seasoned Machine Learning Engineer and CTO with a passion for AI and ML Ops. With over 8 years of experience in IT, I am committed to advancing the field of machine learning and artificial intelligence through innovative projects and continuous learning.
 
 ### 🌟 About Me
-- 🔭 Currently spearheading cutting-edge projects at [MetexLabz](https://github.com/ranareehanaslam).
+- 🔭 Currently spearheading cutting-edge projects at [MetexLabz](https://www.linkedin.com/company/metexlabzofficial/).
 - 🌱 Continuously enhancing my expertise in machine learning and related technologies.
 - 📫 Reach me at: ranareehanaslam on major social platforms.
 
