@@ -60,5 +60,5 @@
 [linkedin]: https://linkedin.com/in/ranareehanaslam
 [facebook]: https://facebook.com/ranareehanaslam
 [twitter]: https://twitter.com/ranareehanaslam
-[youtube]: https://www.youtube.com/c/ranareehanaslam
+[youtube]: https://www.youtube.com/@ranareehanaslam
 [tiktok]: https://tiktok.com/@ranareehanaslam
