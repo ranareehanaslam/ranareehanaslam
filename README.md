@@ -45,6 +45,8 @@
 - Computer Vision
 - Image Processing
 
+
+
 ### 🌐 Connect with Me
 [<img align="left" alt="LinkedIn" width="22px" src="https://cdn-icons-png.flaticon.com/512/174/174857.png" />][linkedin]
 [<img align="left" alt="Instagram" width="22px" src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" />][instagram]
@@ -62,3 +64,14 @@
 [twitter]: https://twitter.com/ranareehanaslam
 [youtube]: https://www.youtube.com/@ranareehanaslam
 [tiktok]: https://tiktok.com/@ranareehanaslam
+
+
+<h2><i>⚙️ GitHub Analytics</i></h2>
+
+<p align="center">
+<a href="https://github.com/saadhaxxan">
+  <img height="180em"  src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=saadhaxxan&layout=compact&langs_count=8&theme=algolia"/>
+</a>
+  <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=saadhaxxan&show_icons=true&locale=en&layout=demo&theme=merko&hide_border=true" />
+</p>
+
