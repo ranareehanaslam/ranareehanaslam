@@ -1,8 +1,8 @@
 # Muhammad Rehan Aslam
 
-## Machine Learning Engineer | CTO at Metex Labz
+## Machine Learning Engineer | Assistant ML OPS at Metex Labz
 
-👋 Welcome to my GitHub profile! I'm Muhammad Rehan Aslam, a seasoned Machine Learning Engineer and CTO with a passion for AI and ML Ops. With over 8 years of experience in IT, I am committed to advancing the field of machine learning and artificial intelligence through innovative projects and continuous learning.
+👋 Welcome to my GitHub profile! I'm Muhammad Rehan Aslam, a seasoned Machine Learning Engineer and Assistant ML OPS  with a passion for AI and ML Ops. With over 8 years of experience in IT, I am committed to advancing the field of machine learning and artificial intelligence through innovative projects and continuous learning.
 
 ### 🌟 About Me
 - 🔭 Currently spearheading cutting-edge projects at [MetexLabz](https://www.linkedin.com/company/metexlabzofficial/).
