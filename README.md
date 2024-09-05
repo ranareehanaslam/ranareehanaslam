@@ -1,22 +1,29 @@
 # Muhammad Rehan Aslam
 
-## Machine Learning Engineer | Assistant ML OPS at Metex Labz
+## Linux Cloud DevOps Admin at Techloyce
 
-👋 Welcome to my GitHub profile! I'm Muhammad Rehan Aslam, a seasoned Machine Learning Engineer and Assistant ML OPS  with a passion for AI and ML Ops. With over 8 years of experience in IT, I am committed to advancing the field of machine learning and artificial intelligence through innovative projects and continuous learning.
+👋 Welcome to my GitHub profile! I'm Muhammad Rehan Aslam, a dedicated Linux Cloud DevOps Admin with extensive experience in managing and optimizing cloud and server environments. With a solid background in IT and over 8 years of professional experience, I am focused on delivering high-quality solutions and advancing technology through effective cloud and server management.
 
 ### 🌟 About Me
-- 🔭 Currently spearheading cutting-edge projects at [MetexLabz](https://www.linkedin.com/company/metexlabzofficial/).
-- 🌱 Continuously enhancing my expertise in machine learning and related technologies.
+- 🔭 Currently enhancing cloud infrastructure and server solutions at [Techloyce](https://www.linkedin.com/company/techloyce/).
+- 🌱 Passionate about staying ahead of industry trends and emerging technologies in cloud computing and DevOps.
 - 📫 Reach me at: ranareehanaslam on major social platforms.
 
 ### 📬 Contact Information
-- **Location:** Islamabad, Pakistan
+- **Location:** Lahore, Punjab, Pakistan
 - **LinkedIn:** [ranareehanaslam](https://www.linkedin.com/in/ranareehanaslam)
 
 ### 💼 Professional Experience
-- **Metex Labz** - Machine Learning & MLOps Engineer (May 2023 - Present)
-  - Developing and deploying machine learning algorithms.
-  - Specializing in MLOps for robust deployment pipelines and model monitoring.
+- **Techloyce** - Linux Cloud DevOps Admin (July 2024 - Present)
+  - Managing and maintaining customer solutions in cloud environments (AWS, Azure, Google Cloud).
+  - Setting up, configuring, and supporting Linux and Windows servers.
+  - Ensuring server performance, security, and compliance.
+  - Collaborating with technical teams to resolve client issues and deliver solutions.
+  - Utilizing expertise in web hosting control panels, mail servers, DNS, and virtualization.
+  - Staying current with industry trends and emerging technologies.
+- **Metex Labz** - Machine Learning & MLOps Engineer (May 2023 - June 2024)
+  - Developed and deployed machine learning algorithms.
+  - Specialized in MLOps for robust deployment pipelines and model monitoring.
 - **Fiverr** - Linux System Administrator & Website Developer (July 2019 - Present)
   - Managed servers for high uptime and reliability.
   - Designed responsive and user-friendly websites.
@@ -33,18 +40,18 @@
 - **Pir Mehr Ali Shah Arid Agriculture University - PMAS AAUR**
   - Bachelor's degree, Computer Science (March 2019 - April 2023)
 - **Template Monster**
-  - Certified Wordpress Developer (November 2018)
+  - Certified WordPress Developer (November 2018)
 
 ### 🛠 Skills & Expertise
-- Machine Learning
-- MLOps
-- Server Management (WHM/cPanel, LINUX, UNIX)
+- Cloud Solutions (AWS, Azure, Google Cloud)
+- Linux & Windows Server Management
+- DevOps Practices
+- Server Performance and Security
+- Web Hosting Control Panels
+- Mail Servers, DNS, and Virtualization
 - Web Development (WordPress, PHP, JavaScript, MySQL)
 - API Integration
 - Software Engineering
-- Computer Vision
-- Image Processing
-
 
 <h2><i>⚙️ GitHub Analytics</i></h2>
 
