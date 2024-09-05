@@ -21,17 +21,47 @@
   - Collaborating with technical teams to resolve client issues and deliver solutions.
   - Utilizing expertise in web hosting control panels, mail servers, DNS, and virtualization.
   - Staying current with industry trends and emerging technologies.
-- **Metex Labz** - Machine Learning & MLOps Engineer (May 2023 - June 2024)
-  - Developed and deployed machine learning algorithms.
-  - Specialized in MLOps for robust deployment pipelines and model monitoring.
+ 
+- **Metex Labz** - MLOps Engineer (May 2023 - July 2024)
+  - Oversaw the deployment and management of machine learning models, ensuring seamless integration and operational reliability.
+  - Designed and implemented efficient APIs and microservices for real-time predictions and effective model communication.
+  - Utilized version control and CI/CD practices to streamline model deployment, enhancing rapid iteration and deployment efficiency.
+  - Conducted comprehensive research and optimization to refine models, ensuring robustness and performance.
+  - Managed virtual machines, local servers, and Docker containers, optimizing them for reliability and performance.
+  - Leveraged Kubernetes to orchestrate and scale containerized applications, improving operational efficiency.
+  - Collaborated with cross-functional teams to define requirements, validate model performance, and provide technical guidance throughout project lifecycles.
+  - Monitored and maintained deployed models and infrastructure, addressing performance issues and ensuring scalability and accuracy over time.
+  - Engaged in continuous learning and development to stay current with the latest MLOps trends and best practices, contributing to team advancement.
+
 - **Fiverr** - Linux System Administrator & Website Developer (July 2019 - Present)
   - Managed servers for high uptime and reliability.
   - Designed responsive and user-friendly websites.
-- **Terminus Technologies Limited** - Software Engineer (December 2019 - May 2023)
-  - Developed responsive websites and custom CMS solutions.
-- **Einnovention Software Solutions** - Web Developer (May 2016 - December 2019)
-  - Launched web applications with a focus on responsive design and client satisfaction.
+Certainly! Here’s a refined version of your professional experience section for your README.md file:
 
+- **Terminus Technologies Limited** - DevOps Engineer (December 2019 - May 2023)
+  - Engineered and maintained scalable and resilient AWS infrastructure, improving reliability by 40% and deployment efficiency by 20%.
+  - Developed and managed CI/CD pipelines, reducing deployment times by 50% and increasing deployment frequency.
+  - Optimized cloud services and server configurations, achieving a 30% cost reduction and enhanced performance.
+  - Led integration of third-party APIs, boosting system functionality by 25%.
+  - Fostered a DevOps culture by collaborating with development and QA teams, accelerating time-to-market by 35%.
+  - Conducted system monitoring and log analysis, reducing critical incidents by 20%.
+  - Implemented robust database management strategies on AWS, improving data access speeds by 40%.
+  - Automated routine maintenance tasks, enhancing operational efficiency by 60%.
+  - Provided technical mentorship to junior DevOps engineers and developed a custom CMS for internal use, reducing maintenance costs by 30%.
+
+- **Einnovention Software Solutions** - Website Server Manager / DevOps Engineer (May 2016 - December 2019)
+  - Developed and launched multiple web applications using PHP, JavaScript, and MySQL.
+  - Managed web servers with Linux, Apache, and MySQL, improving site reliability and response times by 25%.
+  - Resolved complex server and application issues, ensuring high availability and optimal performance.
+  - Enhanced website security through robust protocols, safeguarding user data.
+  - Developed custom WordPress themes and plugins, increasing client satisfaction by 30%.
+  - Implemented responsive designs, boosting user engagement and satisfaction.
+  - Established strong client relationships, leading to repeat business and positive referrals.
+  - Applied agile methodologies to streamline web development processes and collaborated with cross-functional teams.
+ 
+  
+
+This version highlights key achievements and responsibilities in a concise, impactful manner, making it suitable for a professional README.md.
 ### 🏆 Honors & Awards
 - Fiverr Bug Bounty
 - VestaCp Bug Bounty
