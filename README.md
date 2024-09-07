@@ -77,15 +77,19 @@ Welcome to my GitHub profile! I’m Muhammad Rehan Aslam, a dedicated Linux Clou
 - **Web Technologies:** WordPress, MySQL
 
 ### 🌐 Connect with Me
+[<img align="left" alt="LinkedIn" width="22px" src="https://cdn-icons-png.flaticon.com/512/174/174857.png" />][linkedin]
+[<img align="left" alt="Instagram" width="22px" src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" />][instagram]
+[<img align="left" alt="Twitter" width="22px" src="https://cdn-icons-png.flaticon.com/512/733/733579.png" />][twitter]
+[<img align="left" alt="Facebook" width="22px" src="https://cdn-icons-png.flaticon.com/512/124/124010.png" />][facebook]
+[<img align="left" alt="YouTube" width="22px" src="https://cdn-icons-png.flaticon.com/512/174/174883.png" />][youtube]
+[<img align="left" alt="TikTok" width="22px" src="https://cdn-icons-png.flaticon.com/512/3669/3669950.png" />][tiktok]
 
-[![LinkedIn](https://cdn-icons-png.flaticon.com/512/174/174857.png)](https://www.linkedin.com/in/ranareehanaslam)
-[![GitHub](https://cdn-icons-png.flaticon.com/512/1051/1051326.png)](https://github.com/ranareehanaslam)
-[![Facebook](https://cdn-icons-png.flaticon.com/512/124/124010.png)](https://facebook.com/ranareehanaslam)
+<br />
 
-[![Email](https://cdn-icons-png.flaticon.com/512/732/732200.png)](mailto:ranareehan@gmail.com)
-[![Phone](https://cdn-icons-png.flaticon.com/512/724/724664.png)](tel:+923012963333)
-[![WhatsApp](https://cdn-icons-png.flaticon.com/512/733/733585.png)](https://wa.me/923012963333)
-
----
-
-Feel free to reach out or connect with me through any of the platforms above. Let’s collaborate and build something great together!
+<!-- Actual links to your social media accounts -->
+[instagram]: https://instagram.com/ranareehanaslam
+[linkedin]: https://linkedin.com/in/ranareehanaslam
+[facebook]: https://facebook.com/ranareehanaslam
+[twitter]: https://twitter.com/ranareehanaslam
+[youtube]: https://www.youtube.com/@ranareehanaslam
+[tiktok]: https://tiktok.com/@ranareehanaslam
