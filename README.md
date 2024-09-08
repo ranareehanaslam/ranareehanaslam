@@ -72,9 +72,9 @@ Welcome to my GitHub profile! I’m Muhammad Rehan Aslam, a dedicated Linux Clou
 - **Containerization:** Docker, Kubernetes
 - **CI/CD Tools:** GitLab CI, GitHub Actions, Jenkins
 - **API Development:** REST, GraphQL
-- **Monitoring Tools:** cPanel, Prometheus, Grafana
+- **Monitoring Tools:** Prometheus, Grafana, Filebeat
 - **Programming Languages:** Python, PHP, JavaScript
-- **Web Technologies:** WordPress, MySQL
+- **Web Technologies:** WordPress, MySQL,cPanel/WHM
 
 ### 🌐 Connect with Me
 [<img align="left" alt="LinkedIn" width="22px" src="https://cdn-icons-png.flaticon.com/512/174/174857.png" />][linkedin]
