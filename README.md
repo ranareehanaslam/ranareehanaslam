@@ -4,6 +4,11 @@
 
 Welcome to my GitHub profile! I’m Muhammad Rehan Aslam, a dedicated Linux Cloud DevOps Admin and MLOps Engineer with over 8 years of experience in cloud infrastructure, container orchestration, and deployment pipelines. I specialize in building scalable solutions and supporting machine learning operations to ensure efficient and reliable deployments.
 
+📈 my github stats
+
+<p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=ranareehanaslam&show_icons=true&theme=gotham" alt="abhisheknaiidu" />
+
+
 ### 🛠️ Professional Expertise
 
 - **Cloud Infrastructure Management:** Expertise in AWS, Azure, and Google Cloud platforms.
