@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Muhammad Rehan Aslam - Linux Cloud DevOps Admin & MLOps Engineer">
+    <title>Muhammad Rehan Aslam | Cloud DevOps & MLOps Engineer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">Rehan<span class="highlight">.</span></a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <span class="tagline">Cloud Infrastructure & Automation</span>
+                <h1>Muhammad <br>Rehan Aslam</h1>
+                <h2 class="typing-text">I am a <span class="txt-rotate" data-period="2000"
+                        data-rotate='[ "Linux Cloud DevOps Admin", "MLOps Engineer", "Cloud Architect", "Automation Expert" ]'></span>
+                </h2>
+                <p class="hero-description">
+                    Dedicated Engineer with over 8 years of experience in cloud infrastructure, container orchestration,
+                    and deployment pipelines. Specializing in building scalable solutions and supporting machine
+                    learning operations.
+                </p>
+                <div class="hero-btns">
+                    <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                    <a href="#experience" class="btn btn-outline">View Experience</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/ranareehanaslam" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/ranareehanaslam/" target="_blank"><i
+                            class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="code-block-wrapper">
+                    <div class="code-header">
+                        <span class="dot red"></span>
+                        <span class="dot yellow"></span>
+                        <span class="dot green"></span>
+                    </div>
+                    <pre><code class="language-yaml">
+name: MLOps-Pipeline
+on: [push]
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Setup Cloud Environment
+        run: |
+          echo "Initializing AWS/Azure/GCP..."
+          terraform init
+          terraform apply -auto-approve
+          
+      - name: Deploy Containers
+        run: |
+          kubectl apply -f k8s/deployment.yaml
+          echo "System Scalable & Secure"
+                    </code></pre>
+                </div>
+                <div class="glow-effect"></div>
+            </div>
+        </div>
+        <a href="#about" class="scroll-down">
+            <i class="fas fa-chevron-down"></i>
+        </a>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Who I Am</span>
+                <h2 class="section-title">About Me</h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-card">
+                    <i class="fas fa-cloud-upload-alt"></i>
+                    <h3>Cloud Infrastructure</h3>
+                    <p>Expertise in AWS, Azure, and Google Cloud platforms, ensuring optimal performance and security.
+                    </p>
+                </div>
+                <div class="about-card">
+                    <i class="fas fa-cubes"></i>
+                    <h3>Container Orchestration</h3>
+                    <p>Proficient in Docker and Kubernetes for managing and scaling containerized applications
+                        effectively.</p>
+                </div>
+                <div class="about-card">
+                    <i class="fas fa-rocket"></i>
+                    <h3>CI/CD Pipelines</h3>
+                    <p>Skilled in creating and optimizing CI/CD pipelines to streamline deployments and enhance
+                        workflows.</p>
+                </div>
+                <div class="about-card">
+                    <i class="fas fa-brain"></i>
+                    <h3>MLOps</h3>
+                    <p>Supporting deployment and management of machine learning models for smooth integration into
+                        production.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">My Toolbox</span>
+                <h2 class="section-title">Technical Skills</h2>
+            </div>
+
+            <div class="skills-wrapper">
+                <div class="skill-category">
+                    <h3>Cloud & DevOps</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-aws"></i>
+                            <span>AWS</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-microsoft"></i>
+                            <span>Azure</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-google"></i>
+                            <span>Google Cloud</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-docker"></i>
+                            <span>Docker</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-dharmachakra"></i>
+                            <span>Kubernetes</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-jenkins"></i>
+                            <span>Jenkins</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-gitlab"></i>
+                            <span>GitLab CI</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Languages & Web</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-python"></i>
+                            <span>Python</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-php"></i>
+                            <span>PHP</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-js"></i>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-terminal"></i>
+                            <span>Bash/Shell</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-wordpress"></i>
+                            <span>WordPress</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Tools & Monitoring</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fas fa-server"></i>
+                            <span>Prometheus</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-chart-line"></i>
+                            <span>Grafana</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            <span>MySQL</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-cogs"></i>
+                            <span>cPanel/WHM</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Career Path</span>
+                <h2 class="section-title">Experience</h2>
+            </div>
+
+            <div class="timeline">
+                <!-- Job 1 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">July 2024 - Present</div>
+                    <div class="timeline-content">
+                        <h3>Linux Cloud DevOps Admin</h3>
+                        <h4>Techloyce | Islāmābād, Pakistan</h4>
+                        <ul>
+                            <li>Engineered and maintained cloud infrastructure across AWS, Azure, and Google Cloud.</li>
+                            <li>Configured and supported Linux and Windows servers ensuring high availability.</li>
+                            <li>Implemented CI/CD pipelines, improving deployment efficiency.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Job 2 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">May 2023 - July 2024</div>
+                    <div class="timeline-content">
+                        <h3>MLOps Engineer</h3>
+                        <h4>Metex Labz | Islāmābād, Pakistan</h4>
+                        <ul>
+                            <li>Supported deployment and management of machine learning models.</li>
+                            <li>Created robust deployment pipelines and maintained CI/CD practices.</li>
+                            <li>managed virtual machines, local servers, and Docker containers.</li>
+                            <li>Leveraged Kubernetes for orchestrating and scaling containerized applications.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Job 3 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">Dec 2019 - May 2023</div>
+                    <div class="timeline-content">
+                        <h3>DevOps Engineer</h3>
+                        <h4>Terminus Technologies Limited | Pakistan</h4>
+                        <ul>
+                            <li>Designed and managed scalable AWS infrastructure (40% reliability increase).</li>
+                            <li>Developed CI/CD pipelines reducing deployment times by 50%.</li>
+                            <li>Optimized cloud services achieving 30% cost reduction.</li>
+                            <li>Automated routine tasks increasing operational efficiency by 60%.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Job 4 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">May 2016 - Dec 2019</div>
+                    <div class="timeline-content">
+                        <h3>Website Server Manager / DevOps Engineer</h3>
+                        <h4>Einnovention Software Solutions | Pakistan</h4>
+                        <ul>
+                            <li>Managed web servers with Linux and Apache (25% reliability improvement).</li>
+                            <li>Developed and deployed web applications using PHP, JS, and MySQL.</li>
+                            <li>Implemented security protocols and custom WordPress solutions.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="education">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Academic Background</span>
+                <h2 class="section-title">Education & Certifications</h2>
+            </div>
+            <div class="edu-grid">
+                <div class="edu-card">
+                    <i class="fas fa-graduation-cap"></i>
+                    <div class="edu-info">
+                        <h3>Bachelor's in Computer Science</h3>
+                        <h4>Pir Mehr Ali Shah Arid Agriculture University</h4>
+                        <span>March 2019 - April 2023</span>
+                    </div>
+                </div>
+                <div class="edu-card">
+                    <i class="fas fa-certificate"></i>
+                    <div class="edu-info">
+                        <h3>Certified WordPress Developer</h3>
+                        <h4>Template Monster</h4>
+                        <span>November 2018</span>
+                    </div>
+                </div>
+                <div class="edu-card">
+                    <i class="fas fa-bug"></i>
+                    <div class="edu-info">
+                        <h3>Bug Bounty Achievements</h3>
+                        <h4>Fiverr & VestaCp</h4>
+                        <span>Recognized for identifying critical vulnerabilities</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-content">
+                <h2>Let's Work Together</h2>
+                <p>Looking for a skilled DevOps or MLOps Engineer to scale your infrastructure?</p>
+                <div class="contact-buttons">
+                    <a href="mailto:email@example.com" class="btn btn-primary">Send Email</a>
+                    <a href="https://www.linkedin.com/in/ranareehanaslam/" target="_blank"
+                        class="btn btn-outline">LinkedIn Profile</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-bottom">
+                <p>&copy; 2026 Muhammad Rehan Aslam. All rights reserved.</p>
+                <div class="footer-socials">
+                    <a href="https://github.com/ranareehanaslam" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/ranareehanaslam/" target="_blank"><i
+                            class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
