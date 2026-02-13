@@ -31,6 +31,17 @@ body {
     /* Custom cursor */
 }
 
+/* Canvas Background */
+#canvas-network {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: radial-gradient(circle at center, #0a0f1c, #000);
+}
+
 /* Custom Cursor */
 .cursor-dot,
 .cursor-outline {
@@ -146,8 +157,7 @@ ul {
     align-items: center;
     position: relative;
     padding-top: 80px;
-    background: radial-gradient(circle at top right, rgba(0, 242, 255, 0.05), transparent 40%),
-        radial-gradient(circle at bottom left, rgba(188, 19, 254, 0.05), transparent 40%);
+    /* Removed static gradient to rely on canvas */
 }
 
 .hero-container {
@@ -178,10 +188,6 @@ ul {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-}
-
-.hamburger {
-    display: none;
 }
 
 .hero-content h2 {
@@ -676,6 +682,10 @@ footer {
 
 .footer-socials a:hover {
     color: var(--accent-cyan);
+}
+
+.hamburger {
+    display: none;
 }
 
 /* Mobile Responsive */
