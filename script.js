@@ -70,14 +70,14 @@ class Particle {
 // Create particle array
 function init() {
     particlesArray = [];
-    let numberOfParticles = (canvas.height * canvas.width) / 9000;
+    let numberOfParticles = (canvas.height * canvas.width) / 15000;
     for (let i = 0; i < numberOfParticles; i++) {
         let size = (Math.random() * 2) + 1; // Size strictly between 1 and 3
         let x = (Math.random() * ((innerWidth - size * 2) - (size * 2)) + size * 2);
         let y = (Math.random() * ((innerHeight - size * 2) - (size * 2)) + size * 2);
         let directionX = (Math.random() * 2) - 1; // Speed between -1 and 1
         let directionY = (Math.random() * 2) - 1;
-        let color = '#00f2ff'; // Cyan color
+        let color = '#38bdf8'; // Sky 400 - Softer Blue
 
         particlesArray.push(new Particle(x, y, directionX, directionY, size, color));
     }
@@ -100,10 +100,10 @@ function connect() {
                 let mouseDistance = Math.sqrt(dx * dx + dy * dy);
 
                 if (mouseDistance < 150) {
-                    ctx.strokeStyle = 'rgba(188, 19, 254,' + opacityValue + ')'; // Purple near mouse
+                    ctx.strokeStyle = 'rgba(167, 139, 250,' + opacityValue + ')'; // Soft Purple
                     ctx.lineWidth = 1;
                 } else {
-                    ctx.strokeStyle = 'rgba(0, 242, 255,' + (opacityValue * 0.2) + ')'; // Cyan elsewhere
+                    ctx.strokeStyle = 'rgba(56, 189, 248,' + (opacityValue * 0.2) + ')'; // Soft Sky Blue
                     ctx.lineWidth = 0.5;
                 }
 

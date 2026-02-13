@@ -1,14 +1,14 @@
 /* Global Reset & Typography */
 :root {
-    --bg-color: #0a0f1c;
-    --card-bg: #111a2e;
-    --text-primary: #e2e8f0;
+    --bg-color: #020617;
+    --card-bg: rgba(15, 23, 42, 0.85);
+    --text-primary: #f8fafc;
     --text-secondary: #94a3b8;
-    --accent-cyan: #00f2ff;
-    --accent-purple: #bc13fe;
-    --accent-green: #00ff9d;
+    --accent-cyan: #22d3ee;
+    --accent-purple: #a78bfa;
+    --accent-green: #34d399;
     --gradient-main: linear-gradient(135deg, var(--accent-cyan), var(--accent-purple));
-    --glass-bg: rgba(255, 255, 255, 0.05);
+    --glass-bg: rgba(15, 23, 42, 0.6);
     --glass-border: 1px solid rgba(255, 255, 255, 0.1);
     --font-heading: 'Space Grotesk', sans-serif;
     --font-body: 'Outfit', sans-serif;
@@ -39,7 +39,7 @@ body {
     width: 100%;
     height: 100%;
     z-index: -1;
-    background: radial-gradient(circle at center, #0a0f1c, #000);
+    background: #020617;
 }
 
 /* Custom Cursor */
@@ -170,13 +170,13 @@ ul {
 .tagline {
     display: inline-block;
     padding: 0.5rem 1rem;
-    background: rgba(0, 242, 255, 0.1);
+    background: rgba(56, 189, 248, 0.1);
     color: var(--accent-cyan);
     font-family: var(--font-heading);
     font-weight: 600;
     border-radius: 50px;
     margin-bottom: 1.5rem;
-    border: 1px solid rgba(0, 242, 255, 0.2);
+    border: 1px solid rgba(56, 189, 248, 0.2);
 }
 
 .hero-content h1 {
@@ -227,12 +227,12 @@ ul {
 .btn-primary {
     background: var(--gradient-main);
     color: white;
-    box-shadow: 0 0 20px rgba(0, 242, 255, 0.3);
+    box-shadow: 0 0 20px rgba(56, 189, 248, 0.3);
 }
 
 .btn-primary:hover {
     transform: translateY(-3px);
-    box-shadow: 0 0 30px rgba(0, 242, 255, 0.5);
+    box-shadow: 0 0 30px rgba(56, 189, 248, 0.5);
 }
 
 .btn-outline {
