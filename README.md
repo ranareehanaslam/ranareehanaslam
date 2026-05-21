@@ -6,8 +6,9 @@ Welcome to my GitHub profile! I’m Muhammad Rehan Aslam, a dedicated Linux Clou
 
 📈 my github stats
 
-<p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=ranareehanaslam&show_icons=true&theme=gotham" alt="abhisheknaiidu" />
-
+![GitHub Stats](https://github-readme-stats-fast.vercel.app/api?username=ranareehanaslam&show_icons=true&theme=radical)
+![GitHub Stats](https://github-readme-stats-fast.vercel.app/api/streak?username=ranareehanaslam&theme=radical)
+![GitHub Stats](https://github-readme-stats-fast.vercel.app/api/top-langs/?username=ranareehanaslam&layout=compact&theme=radical)
 
 ### 🛠️ Professional Expertise
 
