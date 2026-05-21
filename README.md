@@ -2,7 +2,7 @@
 
 ## 🌐 Linux Cloud DevOps Admin | MLOps Engineer
 
-Welcome to my GitHub profile! I’m Muhammad Rehan Aslam, a dedicated Linux Cloud DevOps Admin and MLOps Engineer with over 8 years of experience in cloud infrastructure, container orchestration, and deployment pipelines. I specialize in building scalable solutions and supporting machine learning operations to ensure efficient and reliable deployments.
+Welcome to my GitHub profile! I’m Muhammad Rehan Aslam, a dedicated Linux Cloud DevOps Admin and MLOps Engineer with over 2 years of experience in cloud infrastructure, container orchestration, and deployment pipelines. I specialize in building scalable solutions and supporting machine learning operations to ensure efficient and reliable deployments.
 
 📈 my github stats
 
@@ -20,7 +20,7 @@ Welcome to my GitHub profile! I’m Muhammad Rehan Aslam, a dedicated Linux Clou
 
 ### 💼 Experience
 
-#### 🏢 **Techloyce** - Linux Cloud DevOps Admin
+#### 🏢 **Techloyce** -  DevOps Engineer
 *July 2024 - Present*  
 *Islāmābād, Pakistan (On-site)*
 
@@ -40,25 +40,7 @@ Welcome to my GitHub profile! I’m Muhammad Rehan Aslam, a dedicated Linux Clou
 - Leveraged Kubernetes for orchestrating and scaling containerized applications, enhancing operational efficiency.
 - Monitored and maintained deployed models and infrastructure, addressing performance issues promptly.
 
-#### 🏢 **Terminus Technologies Limited** - DevOps Engineer
-*December 2019 - May 2023*  
-*Pakistan (On-site)*
 
-- Designed and managed scalable AWS infrastructure, increasing reliability by 40% and improving deployment efficiency by 20%.
-- Developed and maintained CI/CD pipelines, reducing deployment times by 50% and enhancing deployment frequency.
-- Optimized cloud services and server configurations, achieving a 30% cost reduction.
-- Integrated third-party APIs, resulting in a 25% boost in system functionality.
-- Led efforts to automate routine tasks, increasing operational efficiency by 60%.
-
-#### 🏢 **Einnovention Software Solutions** - Website Server Manager / DevOps Engineer
-*May 2016 - December 2019*  
-*Pakistan (Hybrid)*
-
-- Developed and deployed web applications using PHP, JavaScript, and MySQL.
-- Managed web servers with Linux and Apache, improving site reliability by 25%.
-- Implemented security protocols and best practices, safeguarding sensitive data.
-- Developed custom WordPress themes and plugins, increasing client satisfaction by 30%.
-- Utilized agile methodologies to streamline development processes and enhance team collaboration.
 
 ### 🏆 Achievements & Certifications
 
