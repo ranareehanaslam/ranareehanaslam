@@ -2,6 +2,11 @@
 
 ### Linux & Cloud DevOps Engineer | AWS • Azure • GCP
 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-ranareehanaslam-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/ranareehanaslam/)
+[![GitHub](https://img.shields.io/badge/GitHub-ranareehanaslam-181717?style=flat&logo=github)](https://github.com/ranareehanaslam)
+[![Email](https://img.shields.io/badge/Email-ranareehan%40gmail.com-D14836?style=flat&logo=gmail)](mailto:ranareehan@gmail.com)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-%2B92%20301%202963333-25D366?style=flat&logo=whatsapp)](https://wa.me/923012963333)
+
 I build, operate, automate, and troubleshoot cloud and Linux infrastructure with a focus on reliability, security, observability, and repeatable deployments.
 
 My hands-on experience spans cloud infrastructure, Linux systems administration, CI/CD, containers, Kubernetes, infrastructure automation, monitoring, networking, and security across AWS, Microsoft Azure, and Google Cloud.
@@ -225,3 +230,12 @@ Web & Application Infrastructure
 Virtualization
 ├── VMware
 └── Proxmox
+
+```
+---
+## 🌐 Connect With Me
+
+- **Email**: [ranareehan@gmail.com](mailto:ranareehan@gmail.com)
+- **LinkedIn**: [linkedin.com/in/ranareehanaslam](https://www.linkedin.com/in/ranareehanaslam/)
+- **GitHub**: [github.com/ranareehanaslam](https://github.com/ranareehanaslam)
+- **WhatsApp**: [+92 301 2963333](https://wa.me/923012963333)

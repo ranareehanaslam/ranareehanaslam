@@ -4,30 +4,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portfolio of Muhammad Rehan Aslam - Linux Cloud DevOps Admin">
-    <title>Muhammad Rehan Aslam | Cloud DevOps Engineer</title>
-    <link rel="stylesheet" href="style.css?v=3">
+    <meta name="description" content="Portfolio of Muhammad Rehan Aslam - Linux Cloud & DevOps Engineer specializing in AWS, Azure, GCP, Kubernetes, CI/CD, and Observability.">
+    <title>Muhammad Rehan Aslam | Linux Cloud & DevOps Engineer</title>
+    <link rel="stylesheet" href="style.css?v=4">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Outfit:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
+    <!-- Background Canvas particles -->
     <canvas id="canvas-network"></canvas>
+    
+    <!-- Custom Cursor -->
     <div class="cursor-dot"></div>
     <div class="cursor-outline"></div>
 
+    <!-- Navigation Bar -->
     <nav class="navbar">
         <div class="container nav-container">
-            <a href="#" class="logo">Rehan<span class="highlight">.</span></a>
+            <a href="#" class="logo">Rehan<span class="highlight">.devops</span></a>
             <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
+                <li><a href="#metrics">Impact</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
                 <li><a href="#experience">Experience</a></li>
+                <li><a href="#certifications">Certifications</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
             <div class="hamburger">
@@ -38,289 +43,402 @@
         </div>
     </nav>
 
+    <!-- Hero Section -->
     <section id="home" class="hero">
         <div class="container hero-container">
             <div class="hero-content">
-                <span class="tagline">Cloud Infrastructure & Automation</span>
-                <h1>Muhammad <br>Rehan Aslam</h1>
-                <h2 class="typing-text">I am a <span class="txt-rotate" data-period="2000"
-                        data-rotate='[ "Transformative Cloud & DevOps Expert", "Linux Cloud DevOps Admin", "Cloud Architect", "Automation Expert" ]'></span>
+                <div class="status-badge">
+                    <span class="pulse-dot"></span>
+                    <span>Available for DevOps & Infrastructure Roles</span>
+                </div>
+                <h1>Muhammad <br><span class="gradient-text">Rehan Aslam</span></h1>
+                <h2 class="typing-text">Specialized in <span class="txt-rotate" data-period="1800"
+                        data-rotate='[ "Linux & Multi-Cloud Engineering", "AWS, Azure & GCP Infrastructure", "Kubernetes & Docker Orchestration", "CI/CD & MLOps Pipelines", "Prometheus & Grafana Observability" ]'></span>
                 </h2>
                 <p class="hero-description">
-                    Dedicated Engineer with over 8 years of experience in cloud infrastructure, container orchestration,
-                    and deployment pipelines. Specializing in building scalable solutions and optimizing system
-                    performance.
+                    Results-driven Linux Cloud & DevOps Engineer with 3+ years of experience designing, deploying, and optimizing high-availability cloud infrastructure. Proven track record of cutting cloud costs by <strong>25–30%</strong>, improving system reliability by <strong>40%</strong>, and managing <strong>50+ production servers</strong>.
                 </p>
                 <div class="hero-btns">
-                    <a href="#contact" class="btn btn-primary">Get In Touch</a>
-                    <a href="#experience" class="btn btn-outline">View Experience</a>
+                    <a href="#contact" class="btn btn-primary"><i class="fas fa-paper-plane"></i> Hire Me</a>
+                    <a href="#projects" class="btn btn-outline"><i class="fab fa-github"></i> View Work</a>
+                    <a href="#terminal" class="btn btn-terminal"><i class="fas fa-terminal"></i> Try CLI</a>
                 </div>
                 <div class="social-links">
-                    <a href="https://github.com/ranareehanaslam" target="_blank" title="GitHub"><i
-                            class="fab fa-github"></i></a>
-                    <a href="https://www.linkedin.com/in/ranareehanaslam/" target="_blank" title="LinkedIn"><i
-                            class="fab fa-linkedin-in"></i></a>
-                    <a href="https://www.youtube.com/@ranareehanaslam" target="_blank" title="YouTube"><i
-                            class="fab fa-youtube"></i></a>
-                    <a href="https://www.facebook.com/ranareehanaslam" target="_blank" title="Facebook"><i
-                            class="fab fa-facebook-f"></i></a>
-                    <a href="https://www.instagram.com/ranareehanaslam/" target="_blank" title="Instagram"><i
-                            class="fab fa-instagram"></i></a>
-                    <a href="https://www.tiktok.com/@ranareehanaslam" target="_blank" title="TikTok"><i
-                            class="fab fa-tiktok"></i></a>
-                    <a href="https://www.snapchat.com/add/ranareehanaslam" target="_blank" title="Snapchat"><i
-                            class="fab fa-snapchat-ghost"></i></a>
+                    <a href="https://github.com/ranareehanaslam" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/ranareehanaslam/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="mailto:ranareehan@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+                    <a href="https://wa.me/923012963333" target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    <a href="https://www.youtube.com/@ranareehanaslam" target="_blank" title="YouTube"><i class="fab fa-youtube"></i></a>
+                    <a href="https://www.facebook.com/ranareehanaslam" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/ranareehanaslam/" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
                 </div>
             </div>
-            <div class="hero-visual">
-                <div class="code-block-wrapper">
-                    <div class="code-header">
-                        <span class="dot red"></span>
-                        <span class="dot yellow"></span>
-                        <span class="dot green"></span>
+            
+            <!-- Hero Terminal CLI Widget -->
+            <div class="hero-visual" id="terminal">
+                <div class="terminal-card">
+                    <div class="terminal-header">
+                        <div class="terminal-buttons">
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot green"></span>
+                        </div>
+                        <div class="terminal-title">rehan@cluster-node-01:~</div>
+                        <div class="terminal-status"><i class="fas fa-circle online"></i> ACTIVE</div>
                     </div>
-                    <pre><code class="language-yaml">
-name: DevOps-Pipeline
-on: [push]
+                    <div class="terminal-body" id="terminal-output">
+                        <div class="term-line"><span class="term-prompt">rehan@devops-node:~$</span> <span class="term-cmd">whoami</span></div>
+                        <div class="term-res">Muhammad Rehan Aslam — Linux Cloud & DevOps Engineer</div>
+                        
+                        <div class="term-line"><span class="term-prompt">rehan@devops-node:~$</span> <span class="term-cmd">cat metrics.json</span></div>
+                        <div class="term-res highlight-json">{ "cloud_cost_saved": "25-30%", "system_reliability": "+40%", "servers_managed": "50+", "mttr": "<5m" }</div>
 
-jobs:
-  build-deploy:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      
-      - name: Setup Cloud Environment
-        run: |
-          echo "Initializing AWS/Azure/GCP..."
-          terraform init
-          terraform apply -auto-approve
-          
-      - name: Deploy Containers
-        run: |
-          kubectl apply -f k8s/deployment.yaml
-          echo "System Scalable & Secure"
-                    </code></pre>
+                        <div class="term-line"><span class="term-prompt">rehan@devops-node:~$</span> <span class="term-cmd">kubectl get nodes</span></div>
+                        <div class="term-res">NAME               STATUS   ROLES    AGE   VERSION
+aws-cluster-01     Ready    control  120d  v1.28.2
+gcp-gke-node-02    Ready    worker   90d   v1.28.2
+azure-vm-node-03   Ready    worker   60d   v1.28.2</div>
+
+                        <div class="term-line"><span class="term-prompt">rehan@devops-node:~$</span> <span class="term-cmd">help</span></div>
+                        <div class="term-res help-text">Available commands: <span class="cmd-chip">help</span> <span class="cmd-chip">skills</span> <span class="cmd-chip">projects</span> <span class="cmd-chip">certs</span> <span class="cmd-chip">metrics</span> <span class="cmd-chip">contact</span></div>
+                    </div>
+                    <div class="terminal-input-row">
+                        <span class="term-prompt">rehan@devops-node:~$</span>
+                        <input type="text" id="terminal-input" placeholder="Type a command (e.g. skills, projects, certs, metrics)..." autocomplete="off" />
+                    </div>
+                    <div class="quick-cmds">
+                        <span>Quick CLI:</span>
+                        <button onclick="runCliCmd('metrics')">metrics</button>
+                        <button onclick="runCliCmd('skills')">skills</button>
+                        <button onclick="runCliCmd('projects')">projects</button>
+                        <button onclick="runCliCmd('certs')">certs</button>
+                        <button onclick="runCliCmd('contact')">contact</button>
+                    </div>
                 </div>
-                <div class="glow-effect"></div>
             </div>
         </div>
-        <a href="#about" class="scroll-down">
+        <a href="#metrics" class="scroll-down">
             <i class="fas fa-chevron-down"></i>
         </a>
     </section>
 
+    <!-- Key Metrics Highlight Section -->
+    <section id="metrics" class="metrics-section">
+        <div class="container">
+            <div class="metrics-grid">
+                <div class="metric-card">
+                    <div class="metric-icon"><i class="fas fa-chart-line"></i></div>
+                    <div class="metric-value" data-target="25">25–30%</div>
+                    <div class="metric-label">Cloud Cost Reduced</div>
+                    <p class="metric-desc">RI planning, rightsizing, & idle resource elimination across AWS/Azure/GCP.</p>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-icon"><i class="fas fa-shield-halved"></i></div>
+                    <div class="metric-value" data-target="40">40%</div>
+                    <div class="metric-label">Reliability Posture Boost</div>
+                    <p class="metric-desc">Firewall hardening, IAM control, and automated health remediation.</p>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-icon"><i class="fas fa-server"></i></div>
+                    <div class="metric-value" data-target="50">50+</div>
+                    <div class="metric-label">Production Servers Managed</div>
+                    <p class="metric-desc">Linux & Windows hosts, VMware/Proxmox VMs, and cPanel/WHM panels.</p>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-icon"><i class="fas fa-bolt"></i></div>
+                    <div class="metric-value">< 5 min</div>
+                    <div class="metric-label">Automated Self-Healing MTTR</div>
+                    <p class="metric-desc">Downtime detection & alert-triggered remediation scripts without manual on-call.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
     <section id="about" class="about">
         <div class="container">
             <div class="section-header">
-                <span class="section-subtitle">Who I Am</span>
+                <span class="section-subtitle">Core Experience</span>
                 <h2 class="section-title">About Me</h2>
             </div>
             <div class="about-grid">
                 <div class="about-card">
-                    <i class="fas fa-cloud-upload-alt"></i>
-                    <h3>Cloud Infrastructure</h3>
-                    <p>Expertise in AWS, Azure, and Google Cloud platforms, ensuring optimal performance and security.
-                    </p>
+                    <i class="fas fa-cloud"></i>
+                    <h3>Multi-Cloud Infrastructure</h3>
+                    <p>Single-handedly architected and managed production workloads across AWS (EC2, S3, IAM, CloudWatch, Lambda, Route53), Microsoft Azure, and Google Cloud Platform.</p>
                 </div>
                 <div class="about-card">
                     <i class="fas fa-cubes"></i>
-                    <h3>Container Orchestration</h3>
-                    <p>Proficient in Docker and Kubernetes for managing and scaling containerized applications
-                        effectively.</p>
+                    <h3>Containers & Kubernetes</h3>
+                    <p>Proficient in Docker containerization, Kubernetes (GKE Autopilot), Docker Swarm, and reverse proxies (Traefik, Nginx) for high-availability scaling.</p>
                 </div>
                 <div class="about-card">
-                    <i class="fas fa-rocket"></i>
-                    <h3>CI/CD Pipelines</h3>
-                    <p>Skilled in creating and optimizing CI/CD pipelines to streamline deployments and enhance
-                        workflows.</p>
+                    <i class="fas fa-code-branch"></i>
+                    <h3>CI/CD & MLOps Pipelines</h3>
+                    <p>Built end-to-end automated pipelines using GitHub Actions, Jenkins, and Git. Deployed ML models into production with REST APIs & microservices.</p>
                 </div>
                 <div class="about-card">
-                    <i class="fas fa-shield-alt"></i>
-                    <h3>Automation & Security</h3>
-                    <p>Implementing robust security protocols and automating routine tasks to increase operational
-                        efficiency.
-                    </p>
+                    <i class="fas fa-eye"></i>
+                    <h3>Observability & Monitoring</h3>
+                    <p>Implemented enterprise dashboards with Prometheus, Grafana, Grafana Alloy, cAdvisor, and Loki for real-time visibility and proactive alerting.</p>
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- Skills Section -->
     <section id="skills" class="skills">
         <div class="container">
             <div class="section-header">
-                <span class="section-subtitle">My Toolbox</span>
-                <h2 class="section-title">Technical Skills</h2>
+                <span class="section-subtitle">Technical Proficiency</span>
+                <h2 class="section-title">DevOps Ecosystem</h2>
             </div>
 
             <div class="skills-wrapper">
                 <div class="skill-category">
-                    <h3>Cloud & DevOps</h3>
+                    <h3><i class="fas fa-cloud"></i> Cloud Infrastructure</h3>
                     <div class="skill-items">
-                        <div class="skill-item">
-                            <i class="fab fa-aws"></i>
-                            <span>AWS</span>
-                        </div>
-                        <div class="skill-item">
-                            <i class="fab fa-microsoft"></i>
-                            <span>Azure</span>
-                        </div>
-                        <div class="skill-item">
-                            <i class="fab fa-google"></i>
-                            <span>Google Cloud</span>
-                        </div>
-                        <div class="skill-item">
-                            <i class="fab fa-docker"></i>
-                            <span>Docker</span>
-                        </div>
-                        <div class="skill-item">
-                            <i class="fas fa-dharmachakra"></i>
-                            <span>Kubernetes</span>
-                        </div>
-                        <div class="skill-item">
-                            <i class="fab fa-jenkins"></i>
-                            <span>Jenkins</span>
-                        </div>
-                        <div class="skill-item">
-                            <i class="fab fa-gitlab"></i>
-                            <span>GitLab CI</span>
-                        </div>
+                        <div class="skill-item"><i class="fab fa-aws"></i><span>AWS (EC2, S3, IAM, Lambda, Route53)</span></div>
+                        <div class="skill-item"><i class="fab fa-microsoft"></i><span>Microsoft Azure</span></div>
+                        <div class="skill-item"><i class="fab fa-google"></i><span>Google Cloud Platform (GCP)</span></div>
+                        <div class="skill-item"><i class="fas fa-layer-group"></i><span>AWS Elastic Beanstalk</span></div>
                     </div>
                 </div>
 
                 <div class="skill-category">
-                    <h3>Languages & Web</h3>
+                    <h3><i class="fas fa-boxes-stacked"></i> Containers & Orchestration</h3>
                     <div class="skill-items">
-                        <div class="skill-item">
-                            <i class="fab fa-python"></i>
-                            <span>Python</span>
-                        </div>
-                        <div class="skill-item">
-                            <i class="fab fa-php"></i>
-                            <span>PHP</span>
-                        </div>
-                        <div class="skill-item">
-                            <i class="fab fa-js"></i>
-                            <span>JavaScript</span>
-                        </div>
-                        <div class="skill-item">
-                            <i class="fas fa-terminal"></i>
-                            <span>Bash/Shell</span>
-                        </div>
-                        <div class="skill-item">
-                            <i class="fab fa-wordpress"></i>
-                            <span>WordPress</span>
-                        </div>
+                        <div class="skill-item"><i class="fab fa-docker"></i><span>Docker & Docker Compose</span></div>
+                        <div class="skill-item"><i class="fas fa-dharmachakra"></i><span>Kubernetes (K8s / GKE)</span></div>
+                        <div class="skill-item"><i class="fas fa-network-wired"></i><span>Docker Swarm</span></div>
+                        <div class="skill-item"><i class="fas fa-route"></i><span>Traefik & Portainer</span></div>
                     </div>
                 </div>
 
                 <div class="skill-category">
-                    <h3>Tools & Monitoring</h3>
+                    <h3><i class="fas fa-rotate"></i> CI/CD & Automation</h3>
                     <div class="skill-items">
-                        <div class="skill-item">
-                            <i class="fas fa-server"></i>
-                            <span>Prometheus</span>
-                        </div>
-                        <div class="skill-item">
-                            <i class="fas fa-chart-line"></i>
-                            <span>Grafana</span>
-                        </div>
-                        <div class="skill-item">
-                            <i class="fas fa-database"></i>
-                            <span>MySQL</span>
-                        </div>
-                        <div class="skill-item">
-                            <i class="fas fa-cogs"></i>
-                            <span>cPanel/WHM</span>
-                        </div>
+                        <div class="skill-item"><i class="fab fa-github"></i><span>GitHub Actions</span></div>
+                        <div class="skill-item"><i class="fab fa-jenkins"></i><span>Jenkins</span></div>
+                        <div class="skill-item"><i class="fab fa-gitlab"></i><span>GitLab CI</span></div>
+                        <div class="skill-item"><i class="fas fa-terminal"></i><span>Bash Automation</span></div>
+                        <div class="skill-item"><i class="fab fa-python"></i><span>Python Scripting</span></div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-chart-pie"></i> Observability & Security</h3>
+                    <div class="skill-items">
+                        <div class="skill-item"><i class="fas fa-fire"></i><span>Prometheus</span></div>
+                        <div class="skill-item"><i class="fas fa-chart-line"></i><span>Grafana & Grafana Alloy</span></div>
+                        <div class="skill-item"><i class="fas fa-microchip"></i><span>cAdvisor & Loki</span></div>
+                        <div class="skill-item"><i class="fas fa-lock"></i><span>Firewall (ufw/iptables) & SSL/TLS</span></div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-desktop"></i> OS & Web Infrastructure</h3>
+                    <div class="skill-items">
+                        <div class="skill-item"><i class="fab fa-linux"></i><span>Linux (Ubuntu, CentOS, Flatcar)</span></div>
+                        <div class="skill-item"><i class="fas fa-server"></i><span>Nginx & Apache HTTPD</span></div>
+                        <div class="skill-item"><i class="fas fa-sliders"></i><span>Linux cgroups v2 & Systemd</span></div>
+                        <div class="skill-item"><i class="fas fa-database"></i><span>MySQL & PHP</span></div>
+                        <div class="skill-item"><i class="fas fa-cogs"></i><span>cPanel / WHM Control</span></div>
+                        <div class="skill-item"><i class="fas fa-network-wired"></i><span>VMware & Proxmox VE</span></div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- Featured Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Real-World Infrastructure</span>
+                <h2 class="section-title">Featured Work & Open Source</h2>
+            </div>
+
+            <div class="project-filter-buttons">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="observability">Observability</button>
+                <button class="filter-btn" data-filter="containers">Containers & K8s</button>
+                <button class="filter-btn" data-filter="cloud">Cloud Architecture</button>
+                <button class="filter-btn" data-filter="linux">Linux Internals</button>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card" data-category="observability">
+                    <div class="project-header">
+                        <i class="fas fa-chart-area project-icon"></i>
+                        <div class="project-links">
+                            <a href="https://github.com/ranareehanaslam/Grafana-Alloy-cAdvisor-Monitoring-Guide" target="_blank" title="View Source on GitHub"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <h3>Grafana Alloy + cAdvisor Monitoring Guide</h3>
+                    <p>Production observability architecture for Linux hosts and Docker workloads using Grafana Alloy, cAdvisor, Prometheus, and Loki log collection.</p>
+                    <div class="project-tags">
+                        <span>Linux</span>
+                        <span>Docker</span>
+                        <span>Prometheus</span>
+                        <span>Grafana</span>
+                        <span>cAdvisor</span>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card" data-category="containers">
+                    <div class="project-header">
+                        <i class="fas fa-cubes project-icon"></i>
+                        <div class="project-links">
+                            <a href="https://github.com/ranareehanaslam/Docker-Swarm-with-Traefik-and-Portainer" target="_blank" title="View Source on GitHub"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <h3>Docker Swarm + Traefik + Portainer</h3>
+                    <p>High-availability container orchestration stack featuring Traefik reverse proxy, dynamic TLS/HTTPS certificate generation, and Portainer control panel.</p>
+                    <div class="project-tags">
+                        <span>Docker Swarm</span>
+                        <span>Traefik</span>
+                        <span>Portainer</span>
+                        <span>TLS/SSL</span>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card" data-category="cloud">
+                    <div class="project-header">
+                        <i class="fab fa-aws project-icon"></i>
+                        <div class="project-links">
+                            <a href="https://github.com/ranareehanaslam/Deploying-GPU-based-Apps-on-AWS-Elastic-Beanstalk" target="_blank" title="View Source on GitHub"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <h3>GPU Workloads on AWS Elastic Beanstalk</h3>
+                    <p>Deployment of containerized GPU-accelerated workloads on AWS Elastic Beanstalk with optimized cloud resource provisioning and runtime scaling.</p>
+                    <div class="project-tags">
+                        <span>AWS</span>
+                        <span>Elastic Beanstalk</span>
+                        <span>Docker</span>
+                        <span>GPU</span>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card" data-category="cloud containers">
+                    <div class="project-header">
+                        <i class="fab fa-google project-icon"></i>
+                        <div class="project-links">
+                            <a href="https://github.com/ranareehanaslam/Automatic1111-GPU-Container-on-GKE-Autopilot" target="_blank" title="View Source on GitHub"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <h3>GPU Container on GKE Autopilot</h3>
+                    <p>Orchestration of containerized AI model workloads on Google Kubernetes Engine (GKE) Autopilot with automatic GPU node scaling and management.</p>
+                    <div class="project-tags">
+                        <span>GCP</span>
+                        <span>Kubernetes</span>
+                        <span>GKE</span>
+                        <span>MLOps</span>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="project-card" data-category="linux">
+                    <div class="project-header">
+                        <i class="fas fa-users-gear project-icon"></i>
+                        <div class="project-links">
+                            <a href="https://github.com/ranareehanaslam/The-Ultimate-Guide-to-Linux-User-Management-Access-Control-for-Developers-Secure-Multi-User" target="_blank" title="View Source on GitHub"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <h3>Linux User Management & Access Control</h3>
+                    <p>Production guide for Linux system access control, fine-grained developer permissions, RBAC, SSH key isolation, and secure multi-tenant hosting.</p>
+                    <div class="project-tags">
+                        <span>Linux OS</span>
+                        <span>Access Control</span>
+                        <span>RBAC</span>
+                        <span>Security</span>
+                    </div>
+                </div>
+
+                <!-- Project 6 -->
+                <div class="project-card" data-category="linux">
+                    <div class="project-header">
+                        <i class="fas fa-microchip project-icon"></i>
+                        <div class="project-links">
+                            <a href="https://github.com/ranareehanaslam/Ultimate-Guide-to-cgroups-v2-in-Linux" target="_blank" title="View Source on GitHub"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <h3>Ultimate Guide to Linux cgroups v2</h3>
+                    <p>In-depth technical reference exploring Linux Control Groups v2 for precise CPU, Memory, and I/O resource allocation for processes and containers.</p>
+                    <div class="project-tags">
+                        <span>Linux Kernel</span>
+                        <span>cgroups v2</span>
+                        <span>Performance</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work Experience Section -->
     <section id="experience" class="experience">
         <div class="container">
             <div class="section-header">
-                <span class="section-subtitle">Career Path</span>
-                <h2 class="section-title">Experience</h2>
+                <span class="section-subtitle">Verified History</span>
+                <h2 class="section-title">Work Experience</h2>
             </div>
 
             <div class="timeline">
-                <!-- Job 1 -->
+                <!-- Role 1 -->
                 <div class="timeline-item">
                     <div class="timeline-dot"></div>
-                    <div class="timeline-date">July 2024 - Present</div>
+                    <div class="timeline-date">15/07/2024 – 30/07/2026</div>
                     <div class="timeline-content">
-                        <h3>Linux Cloud DevOps Admin</h3>
-                        <h4>Techloyce | Lahore, PK</h4>
+                        <span class="role-type">Full-Time</span>
+                        <h3>Sole DevOps Engineer</h3>
+                        <h4>Techloyce | Lahore, Pakistan</h4>
+                        <p class="role-summary">Responsible for the complete infrastructure stack across AWS, Azure, GCP, 50+ Linux & Windows servers, CI/CD pipelines, security, monitoring, and technical IT support.</p>
                         <ul>
-                            <li>Manage and optimize cloud environments and servers, ensuring top performance and
-                                security.</li>
-                            <li>Architect and deploy scalable solutions on AWS, Azure, and Google Cloud.</li>
-                            <li>Configure and maintain Linux and Windows servers with performance tuning.</li>
+                            <li><strong>Cloud Architecture:</strong> Single-handedly architected & managed infrastructure across AWS (EC2, S3, IAM, CloudWatch, Lambda, Route53), Azure, and GCP.</li>
+                            <li><strong>Cloud Cost Optimization:</strong> Reduced cloud spending by <strong>25%</strong> through RI planning, resource rightsizing, and idle service termination without impacting SLAs.</li>
+                            <li><strong>Server Administration:</strong> Administered 50+ Linux & Windows servers, VMware/Proxmox VMs, and cPanel/WHM panels with 99.9% uptime.</li>
+                            <li><strong>CI/CD Pipelines:</strong> Built & maintained automated pipelines using Jenkins and GitHub Actions across client environments.</li>
+                            <li><strong>Self-Healing Automation:</strong> Developed Bash automation for backups, log rotation, health checks, and alert-triggered remediation, reducing MTTR to < 5 mins.</li>
+                            <li><strong>Observability:</strong> Configured Grafana & Prometheus dashboards for real-time host and container performance tracking.</li>
+                            <li><strong>Security Posture:</strong> Strengthened security posture by <strong>40%</strong> through firewall policies, IAM controls, and SSL/TLS certificate lifecycle management.</li>
                         </ul>
                     </div>
                 </div>
 
-                <!-- Job 2 -->
+                <!-- Role 2 -->
                 <div class="timeline-item">
                     <div class="timeline-dot"></div>
-                    <div class="timeline-date">July 2019 - Present</div>
+                    <div class="timeline-date">15/05/2023 – 12/07/2024</div>
                     <div class="timeline-content">
-                        <h3>Linux System Administrator & Web Developer</h3>
-                        <h4>Fiverr (Freelance)</h4>
+                        <span class="role-type">Full-Time</span>
+                        <h3>MLOps Engineer</h3>
+                        <h4>Metex Labz | Islamabad, Pakistan</h4>
+                        <p class="role-summary">Focused on the deployment and operational side of machine learning models into production using containers, microservices, and CI/CD pipelines.</p>
                         <ul>
-                            <li>Conducted regular security audits and implemented robust measures to prevent
-                                unauthorized access.</li>
-                            <li>Designed and developed responsive websites with a 95% customer satisfaction rate.</li>
-                            <li>Implemented server configuration best practices, reducing load times by 50%.</li>
+                            <li><strong>Model Containerization:</strong> Deployed ML models end-to-end into production using Docker and Kubernetes clusters.</li>
+                            <li><strong>Microservices & REST APIs:</strong> Built and maintained scalable REST APIs for real-time model predictions and application integration.</li>
+                            <li><strong>Infrastructure Automation:</strong> Used Python and Bash scripts to optimize virtual machines, local servers, and container reliability.</li>
+                            <li><strong>CI/CD Workflows:</strong> Set up Git-based CI/CD pipelines for streamlined model packaging and rapid release cycles.</li>
+                            <li><strong>Proactive Monitoring:</strong> Monitored production ML pipelines for performance bottlenecks and data quality issues.</li>
                         </ul>
                     </div>
                 </div>
 
-                <!-- Job 3 -->
+                <!-- Role 3 -->
                 <div class="timeline-item">
                     <div class="timeline-dot"></div>
-                    <div class="timeline-date">May 2023 - July 2024</div>
+                    <div class="timeline-date">2018 – Present</div>
                     <div class="timeline-content">
-                        <h3>Cloud & Infrastructure Engineer</h3>
-                        <h4>Metex Labz | Lahore, PK</h4>
+                        <span class="role-type">Specialist / Freelance</span>
+                        <h3>Security Bug Bounty & Cloud Consultant</h3>
+                        <h4>Fiverr & VestaCP (Independent)</h4>
                         <ul>
-                            <li>Managed deployment pipelines and maintained CI/CD practices.</li>
-                            <li>Orchestrated virtual machines, local servers, and Docker containers.</li>
-                            <li>Leveraged Kubernetes for scaling containerized applications.</li>
-                            <li>Optimized system performance and reliability for production environments.</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- Job 4 -->
-                <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-date">Dec 2019 - May 2023</div>
-                    <div class="timeline-content">
-                        <h3>DevOps Engineer</h3>
-                        <h4>Terminus Technologies Limited | Pakistan</h4>
-                        <ul>
-                            <li>Designed and managed scalable AWS infrastructure (40% reliability increase).</li>
-                            <li>Developed CI/CD pipelines reducing deployment times by 50%.</li>
-                            <li>Optimized cloud services achieving 30% cost reduction.</li>
-                            <li>Automated routine tasks increasing operational efficiency by 60%.</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- Job 5 -->
-                <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-date">May 2016 - Dec 2019</div>
-                    <div class="timeline-content">
-                        <h3>Website Server Manager / DevOps Engineer</h3>
-                        <h4>Einnovention Software Solutions | Pakistan</h4>
-                        <ul>
-                            <li>Managed web servers with Linux and Apache (25% reliability improvement).</li>
-                            <li>Developed and deployed web applications using PHP, JS, and MySQL.</li>
-                            <li>Implemented security protocols and custom WordPress solutions.</li>
+                            <li>Discovered and responsibly disclosed critical security vulnerabilities in web applications and server control systems.</li>
+                            <li>Consulted for international clients on server hardening, Linux OS troubleshooting, and website server performance optimization.</li>
                         </ul>
                     </div>
                 </div>
@@ -328,94 +446,117 @@ jobs:
         </div>
     </section>
 
-    <section id="education" class="education">
+    <!-- Certifications & Education Section -->
+    <section id="certifications" class="certifications">
         <div class="container">
             <div class="section-header">
-                <span class="section-subtitle">Academic Background</span>
-                <h2 class="section-title">Education & Certifications</h2>
+                <span class="section-subtitle">Qualifications</span>
+                <h2 class="section-title">Certifications & Education</h2>
             </div>
-            <div class="edu-grid">
-                <div class="edu-card">
-                    <i class="fas fa-graduation-cap"></i>
-                    <div class="edu-info">
-                        <h3>Bachelor's in Computer Science</h3>
-                        <h4>Pir Mehr Ali Shah Arid Agriculture University</h4>
-                        <span>March 2019 - April 2023</span>
+            
+            <div class="cert-grid">
+                <!-- Cert 1 -->
+                <div class="cert-card highlight-cert">
+                    <div class="cert-icon"><i class="fab fa-aws"></i></div>
+                    <div class="cert-details">
+                        <span class="cert-badge">AWS Official</span>
+                        <h3>AWS re/Start Graduate</h3>
+                        <p>Amazon Web Services (AWS) Training & Certification</p>
+                        <span class="cert-date"><i class="far fa-calendar"></i> August 2025</span>
+                        <a href="https://www.credly.com/badges/3e586502-1ea9-4684-acdc-7959fd7d1518" target="_blank" class="credly-btn"><i class="fas fa-certificate"></i> Verify on Credly</a>
                     </div>
                 </div>
-                <div class="edu-card">
-                    <i class="fas fa-certificate"></i>
-                    <div class="edu-info">
-                        <h3>Certified WordPress Developer</h3>
-                        <h4>Template Monster</h4>
-                        <span>November 2018</span>
+
+                <!-- Cert 2 -->
+                <div class="cert-card highlight-cert">
+                    <div class="cert-icon"><i class="fab fa-aws"></i></div>
+                    <div class="cert-details">
+                        <span class="cert-badge">AWS Official</span>
+                        <h3>AWS Cloud Quest: Cloud Practitioner</h3>
+                        <p>Amazon Web Services (AWS) Training & Certification</p>
+                        <span class="cert-date"><i class="far fa-calendar"></i> February 2025</span>
+                        <a href="https://www.credly.com/badges/0e34f11a-7fb6-49db-8974-1f8e13a89396/" target="_blank" class="credly-btn"><i class="fas fa-certificate"></i> Verify on Credly</a>
                     </div>
                 </div>
-                <div class="edu-card">
-                    <i class="fab fa-python"></i>
-                    <div class="edu-info">
-                        <h3>Python for Data Science, AI & Development</h3>
-                        <h4>Coursera / IBM</h4>
-                        <span>Certification</span>
+
+                <!-- Cert 3 -->
+                <div class="cert-card highlight-cert">
+                    <div class="cert-icon"><i class="fas fa-network-wired"></i></div>
+                    <div class="cert-details">
+                        <span class="cert-badge">Cisco Verified</span>
+                        <h3>Linux Unhatched</h3>
+                        <p>Cisco Networking Academy</p>
+                        <span class="cert-date"><i class="far fa-calendar"></i> February 2025</span>
+                        <a href="https://www.credly.com/badges/43e6ee8c-26e8-41e4-88d9-0f6890daa3f7/" target="_blank" class="credly-btn"><i class="fas fa-certificate"></i> Verify on Credly</a>
                     </div>
                 </div>
-                <div class="edu-card">
-                    <i class="fas fa-robot"></i>
-                    <div class="edu-info">
-                        <h3>Supervised Machine Learning</h3>
-                        <h4>Regression and Classification</h4>
-                        <span>Certification</span>
+
+                <!-- Edu 1 -->
+                <div class="cert-card">
+                    <div class="cert-icon"><i class="fas fa-graduation-cap"></i></div>
+                    <div class="cert-details">
+                        <span class="cert-badge degree">BS Degree</span>
+                        <h3>Bachelor of Science in Computer Science</h3>
+                        <p>Pir Mehr Ali Shah Arid Agriculture University Rawalpindi</p>
+                        <span class="cert-date"><i class="far fa-calendar"></i> Feb 2019 – March 2023</span>
                     </div>
                 </div>
-                <div class="edu-card">
-                    <i class="fas fa-bug"></i>
-                    <div class="edu-info">
-                        <h3>Bug Bounty Achievements</h3>
-                        <h4>Fiverr & VestaCp</h4>
-                        <span>Recognized for identifying critical vulnerabilities</span>
+            </div>
+
+            <!-- Bug Bounty Honors Subsection -->
+            <div class="bug-bounty-wrapper">
+                <h3 class="sub-title"><i class="fas fa-shield-cat"></i> Bug Bounty & Security Recognition</h3>
+                <div class="bounty-grid">
+                    <div class="bounty-card">
+                        <div class="bounty-badge">Fiverr</div>
+                        <h4>Security Bug Bounty Recognition</h4>
+                        <p>Responsibly disclosed a critical security vulnerability in Fiverr's earning clearance system; rewarded by the Fiverr security team.</p>
+                        <span class="bounty-date">15/11/2022</span>
+                    </div>
+                    <div class="bounty-card">
+                        <div class="bounty-badge">VestaCP</div>
+                        <h4>Security Bug Bounty Recognition</h4>
+                        <p>Identified a security bypass vulnerability in VestaCP's file manager and SFTP CHROOT licensing system; awarded lifetime license.</p>
+                        <span class="bounty-date">16/03/2018</span>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- Contact Section -->
     <section id="contact" class="contact">
         <div class="container">
-            <div class="contact-content">
-                <h2>Let's Work Together</h2>
-                <p>Looking for a skilled DevOps Engineer to scale your infrastructure?</p>
-                <div class="contact-buttons">
-                    <a href="mailto:ranareehan@gmail.com" class="btn btn-primary">Send Email</a>
-                    <a href="https://wa.me/923012963333" target="_blank" class="btn btn-outline"><i
-                            class="fab fa-whatsapp"></i> +92 301 2963333</a>
+            <div class="contact-box">
+                <div class="contact-header">
+                    <h2>Let's Build & Scale Infrastructure</h2>
+                    <p>Looking for a proven DevOps Engineer to cut your cloud costs, automate CI/CD, and achieve 99.9% uptime?</p>
+                </div>
+                <div class="contact-actions">
+                    <a href="mailto:ranareehan@gmail.com" class="btn btn-primary"><i class="fas fa-envelope"></i> Email Me: ranareehan@gmail.com</a>
+                    <a href="https://wa.me/923012963333" target="_blank" class="btn btn-whatsapp"><i class="fab fa-whatsapp"></i> WhatsApp: +92 301 2963333</a>
+                    <a href="https://www.linkedin.com/in/ranareehanaslam/" target="_blank" class="btn btn-linkedin"><i class="fab fa-linkedin"></i> LinkedIn Profile</a>
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- Footer -->
     <footer>
         <div class="container">
             <div class="footer-bottom">
-                <p>&copy; 2026 Muhammad Rehan Aslam. All rights reserved.</p>
+                <p>&copy; 2026 Muhammad Rehan Aslam. All rights reserved. | DevOps & Cloud Engineering</p>
                 <div class="footer-socials">
                     <a href="https://github.com/ranareehanaslam" target="_blank"><i class="fab fa-github"></i></a>
-                    <a href="https://www.linkedin.com/in/ranareehanaslam/" target="_blank"><i
-                            class="fab fa-linkedin-in"></i></a>
-                    <a href="https://www.youtube.com/@ranareehanaslam" target="_blank"><i
-                            class="fab fa-youtube"></i></a>
-                    <a href="https://www.facebook.com/ranareehanaslam" target="_blank"><i
-                            class="fab fa-facebook-f"></i></a>
-                    <a href="https://www.instagram.com/ranareehanaslam/" target="_blank"><i
-                            class="fab fa-instagram"></i></a>
-                    <a href="https://www.tiktok.com/@ranareehanaslam" target="_blank"><i class="fab fa-tiktok"></i></a>
-                    <a href="https://www.snapchat.com/add/ranareehanaslam" target="_blank"><i
-                            class="fab fa-snapchat-ghost"></i></a>
+                    <a href="https://www.linkedin.com/in/ranareehanaslam/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="mailto:ranareehan@gmail.com"><i class="fas fa-envelope"></i></a>
+                    <a href="https://wa.me/923012963333" target="_blank"><i class="fab fa-whatsapp"></i></a>
                 </div>
             </div>
         </div>
     </footer>
 
-    <script src="script.js?v=3"></script>
+    <script src="script.js?v=4"></script>
 </body>
 
 </html>
