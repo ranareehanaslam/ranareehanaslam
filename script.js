@@ -126,7 +126,7 @@ const terminalCommands = {
     certs: "📜 VERIFIED CREDENTIALS & CERTIFICATIONS:\n • AWS re/Start Graduate (AWS Training & Certification)\n • AWS Cloud Quest: Cloud Practitioner (AWS Training)\n • Linux Unhatched (Cisco Networking Academy)\n • BS in Computer Science (Arid Agriculture University)",
     experience: "💼 WORK HISTORY:\n • Sole DevOps Engineer @ Techloyce (July 2024 – July 2026)\n • MLOps Engineer @ Metex Labz (May 2023 – July 2024)\n • Security Bug Bounty Contributor (Fiverr 2022, VestaCP 2018)",
     security: "🛡️ BUG BOUNTY DISCLOSURES:\n • Fiverr (2022): Disclosed critical vulnerability in earning clearance system\n • VestaCP (2018): Disclosed file manager & SFTP CHROOT licensing bypass",
-    contact: "📬 CONTACT DETAILS:\n • Email: ranareehan@gmail.com\n • Phone / WhatsApp: +92 301 2963333\n • LinkedIn: linkedin.com/in/ranareehanaslam\n • GitHub: github.com/ranareehanaslam",
+    contact: "📬 CONTACT DETAILS:\n • Email: ranareehan@gmail.com\n • Location: Naxxar, Malta\n • Phone / WhatsApp: +356 7996 3333\n • LinkedIn: linkedin.com/in/ranareehanaslam\n • GitHub: github.com/ranareehanaslam",
     whoami: "Muhammad Rehan Aslam — Results-Driven Linux Cloud & DevOps Engineer",
 };
 
@@ -197,10 +197,12 @@ document.addEventListener('DOMContentLoaded', () => {
     const hamburger = document.querySelector('.hamburger');
     const navLinks = document.querySelector('.nav-links');
 
-    if (hamburger) {
+    if (hamburger && navLinks) {
         hamburger.addEventListener('click', () => {
-            navLinks.classList.toggle('active');
-            hamburger.classList.toggle('toggle');
+            const isOpen = navLinks.classList.toggle('active');
+            hamburger.classList.toggle('toggle', isOpen);
+            hamburger.setAttribute('aria-expanded', String(isOpen));
+            hamburger.setAttribute('aria-label', isOpen ? 'Close navigation menu' : 'Open navigation menu');
         });
     }
 
@@ -298,8 +300,13 @@ document.addEventListener('DOMContentLoaded', () => {
                 targetElement.scrollIntoView({
                     behavior: 'smooth'
                 });
-                if (navLinks.classList.contains('active')) {
+                if (navLinks && navLinks.classList.contains('active')) {
                     navLinks.classList.remove('active');
+                    if (hamburger) {
+                        hamburger.classList.remove('toggle');
+                        hamburger.setAttribute('aria-expanded', 'false');
+                        hamburger.setAttribute('aria-label', 'Open navigation menu');
+                    }
                 }
             }
         });
